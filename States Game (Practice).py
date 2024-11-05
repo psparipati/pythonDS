@@ -14,4 +14,5 @@ while i < 5:
         correct_answers = correct_answers + 1
     i = i + 1
     choices.remove(state)
+del i
 print(f"Final Score: {correct_answers} out of 5")
